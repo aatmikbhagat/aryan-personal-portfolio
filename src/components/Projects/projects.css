@@ -76,7 +76,7 @@
     line-height: 1.6;
   
     /* keep descriptions equal height so tags line up */
-    min-height: 70px; /* tweak if you change copy length */
+    min-height: 70px; 
   }
   
   /* Screenshot area */
@@ -89,7 +89,7 @@
   
   .projectCard__image img {
     width: 100%;
-    height: 190px;          /* uniform height for all previews */
+    height: 190px;
     object-fit: cover;
     display: block;
     transition: transform 0.25s ease-out;
@@ -97,7 +97,7 @@
   
   /* Specific zoom-out look for budget planner screenshot */
   .projectCard__image img.budget-img {
-    object-fit: contain;    /* show full UI, not cropped */
+    object-fit: contain; 
     background: #111;
     padding: 0.5rem;
   }
@@ -124,7 +124,7 @@
     white-space: nowrap;
   }
   
-  /* GitHub link styled like a small pill/button */
+  /* GitHub link */
   .projectCard__link {
     margin-top: 0.7rem;
     align-self: flex-start;

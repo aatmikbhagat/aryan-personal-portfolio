@@ -12,11 +12,11 @@
     height: 5rem;
     position: sticky;
     top: 0;
-    z-index: 999; /* stay above content */
+    z-index: 999;
 }
 
 .logo {
-    font-family: 'Outfit', sans-serif;  /* or your chosen font */
+    font-family: 'Outfit', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color: white;
@@ -26,16 +26,16 @@
   
   /* Hover turns blue */
   .logo:hover {
-    color: #76b6ff;   /* your brand blue */
+    color: #76b6ff;
   }
 
   .desktopMenu {
     display: flex;
-    align-items: center;    /* vertically align items */
+    align-items: center;  
     justify-content: center;
-    gap: 2rem;              /* cleaner spacing */
-    margin: 0;              /* remove accidental margin */
-    padding: 0;             /* remove any default padding */
+    gap: 2rem;             
+    margin: 0;             
+    padding: 0;             
 }
 .desktopMenuListItem {
     margin: 0;
@@ -49,7 +49,7 @@
 
 .desktopMenuListItem:hover {
     color: #3584e4;;   
-    transform: translateY(-1px); /* tiny lift for smoothness */
+    transform: translateY(-1px);
 }
 
 .desktopMenuBtn {
@@ -66,17 +66,16 @@
     font-weight: 500;
 
     border: none;
-    border-radius: 9999px;   /* pill shape */
+    border-radius: 9999px; 
     transition: all 0.25s ease-in-out;
 }
 
 /* FULL BUTTON HOVER EFFECT */
 .desktopMenuBtn:hover {
-    background-color: #e8f4ff;   /* light blue tint */
+    background-color: #e8f4ff;
     color: #76b6ff;
-    transform: translateY(-2px); /* small lift effect */
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.15); /* makes hover OBVIOUS */
-}
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
 
 /* PREVENT CLICK COLOR CHANGE */
 .desktopMenuBtn:active {
@@ -84,4 +83,5 @@
     color: #333;
     transform: none;
     box-shadow: none;
+}
 }

@@ -6,7 +6,7 @@ import profile from "../../assets/profile.png";
 const resumeData = [
   {
     title: "Aryan Kakkar Resume",
-    link: "/Aryan_Kakkar_Resume_Summer2026.pdf",
+    link: "/Aryan_Kakkar_Resume_Analyst_Summer2026.pdf",
   }
 ];
 
