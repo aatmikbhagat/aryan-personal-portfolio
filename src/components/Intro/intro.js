@@ -6,8 +6,8 @@ import profile from "../../assets/profile.png";
 const resumeData = [
   {
     title: "Aryan Kakkar Resume",
-    link: "/Aryan_Kakkar_Resume_Analyst_Summer2026.pdf",
-  }
+    link: "/Aryan_Kakkar_Resume_SWE_Summer2026.pdf",
+  },
 ];
 
 const Intro = () => {
@@ -22,7 +22,7 @@ const Intro = () => {
             I'm 
             <span className="introName"> Aryan Kakkar</span>
             <br />
-            CS @ Wilfrid Laurier University • Machine Learning Engineer Intern
+            CS @ Wilfrid Laurier University • Machine Learning & Software Engineer
           </span>
 
           <p className="introPara">
