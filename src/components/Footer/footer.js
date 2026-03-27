@@ -13,6 +13,7 @@ const Footer = () => {
                         style={{ width: "24px", height: "auto", opacity: 0.8 }}
                     />
                 </a>
+                
                 <a href="https://cs-webring.vercel.app/go?site=https%3A%2F%2Faryankakkar.vercel.app/%2F&nav=next">→</a>
             </div>
         © {new Date().getFullYear()} Aryan Kakkar. All rights reserved.

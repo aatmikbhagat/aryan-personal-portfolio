@@ -12,4 +12,5 @@
 .web-ring a {
   color: #fff; /* white, or use #ccc for light grey */
   text-decoration: none; 
+  margin-left: 16px;
 }
